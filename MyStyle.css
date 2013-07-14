@@ -124,3 +124,13 @@ a ,a:hover{
 .feed-item-container .feed-item-main {
     border: 0px!important;
 }
+
+#guide-container {
+    margin-top: 25px!important;
+}
+
+#crx-html5-player {
+    margin-top: 40px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 4px;
+}
