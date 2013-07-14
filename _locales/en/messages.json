@@ -1,0 +1,33 @@
+{
+	"ext_name": {
+		"message": "Youtube Styler"
+	},
+	"ext_description": {
+		"message": "Youtube Style"
+	},
+	//
+	"enable": {
+		"message": "Enable"
+	},
+	"disable": {
+		"message": "Disable"
+	},
+	"quality": {
+		"message": "Quality"
+	},
+	"speed": {
+		"message": "Speed"
+	},
+	"embiggen": {
+		"message": "Embiggen"
+	},
+	"shrink": {
+		"message": "Shrink"
+	},
+	"download": {
+		"message": "Download"
+	},
+	"reload": {
+		"message": "Reload"
+	}
+}

@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "minimum_chrome_version": "20",
+    "content_security_policy": "default-src 'self'",
+    "default_locale": "en",
+    "name": "MyStyle",
+    "description": "Youtube Style",
+    "version": "0.0.1",
+    "icons": {
+        "128": "128.png",
+         "48": "48.png",
+         "16": "16.png"
+    },
+    "permissions": [
+        "storage"
+    ],
+    "content_scripts": [{
+        "matches": [
+            "*://*.youtube.com/*"
+        ],
+        "css": [
+            "MyStyle.css"
+        ],
+        "run_at": "document_end"
+    }]
+}
