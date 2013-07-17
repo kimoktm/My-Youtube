@@ -12,7 +12,7 @@ html body {
     background: url(http://s.ytimg.com/yt/imgbin/www-refreshbg-vflC3wnbM.png) 0px 0px repeat rgb(235, 235, 235);
 }
 
-.comments-post, .yt-uix-button-icon-wrapper, #footer-container {
+.comments-post, .yt-uix-button-icon-wrapper, #footer-container, #player-branded-banner {
     display: none!important;
 }
 
@@ -130,7 +130,17 @@ a ,a:hover{
 }
 
 #crx-html5-player {
-    margin-top: 40px;
-    border: 1px solid rgba(255, 255, 255, 0);
+    border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
+}
+
+#player, #page.watch #guide-container.branded, .watch-branded #watch7-sidebar {
+    background: transparent!important;
+    background-color: transparent!important;
+}
+
+#player-api {
+    margin-top: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px; 
 }
