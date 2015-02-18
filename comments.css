@@ -1,0 +1,70 @@
+/*-----------------------------------------------------------------------------------*/
+/* COMMENTS
+/*-----------------------------------------------------------------------------------*/
+
+.vKa, .Wh, .mj .we {
+  border-radius: 100%!important;
+}
+
+.dn, .Aq {
+  color: #414c54!important;
+  font-weight: 300!important;
+}
+
+.proflinkWrapper a, .proflinkPrefix {
+  color: #88a2b5!important;
+}
+
+.Ve, .Rg, .Rg.o-U-s, .Ve .dk, .gK .dk, .Jj {
+  color: #88a2b5!important;
+}
+
+.Ve:hover,
+.Rg:hover,
+.Rg.o-U-s:hover,
+.Ve .dk:hover,
+.gK .dk:hover,
+.Jj:hover,
+.ve.oba .o-U-s:hover,
+.ve.oba .d-s:hover {
+  color: #9cb7ca!important;
+  text-decoration: none!important;
+}
+
+.bmd, .vy, .bS {
+  color: #84c222!important;
+  font-weight: bold!important;
+}
+
+.Xa {
+  padding-bottom: 40px!important;
+  line-height: 1.5!important;
+}
+
+.lg {
+  padding-top: 24px!important;
+}
+
+.lea, .eR {
+  margin-bottom: 2px!important;
+}
+
+.Ub {
+  font-size: 14px!important;
+  font-weight: normal!important;
+}
+
+.Ub, .via .TD {
+  color: #4D85AE!important;
+}
+
+.Xa .ot-anchor,
+.g9 .Xa.va .vy,
+.g9 .Xa.va .dp.d-s,
+.g9 .Xa.va .ot-anchor,
+.g9 .Xa.va .ot-hashtag,
+.g9 .Xa.va .proflink,
+.g9 .Xa.va .proflinkPrefix,
+.g9 .Xa.va .gj.d-s {
+  color: #88a2b5!important;
+}

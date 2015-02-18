@@ -1,0 +1,5 @@
+URL starting with:		https://plus.googleapis.com
+URL matching regexp:	https://apis.google.com/.*/widget/render/comments?.*&first_party_property=YOUTUBE.*
+URL matching regexp:	https://plus.google.com/.*/widget/render/comments?.*
+URL matching regexp:	https://plus.google.com/.*/notifications/frame?.*
+URL on domain:			youtube.com

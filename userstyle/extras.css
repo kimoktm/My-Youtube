@@ -1,0 +1,30 @@
+/*-----------------------------------------------------------------------------------*/
+/* EXTRAS (hide stuff)
+/*-----------------------------------------------------------------------------------*/
+
+#footer-links {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  height: 0;
+  border-top: 3px solid #bb2222;
+  z-index: 9999999999;
+}
+
+#footer-links-primary,
+#footer-links-secondary{
+  display: none;
+}
+
+body #footer-container {
+  margin-top: auto;
+}
+
+#footer-main {
+  text-align: center;
+  padding: 15px 0;
+  border: 0;
+}

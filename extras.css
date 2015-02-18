@@ -1,0 +1,30 @@
+/*-----------------------------------------------------------------------------------*/
+/* EXTRAS (hide stuff)
+/*-----------------------------------------------------------------------------------*/
+
+#footer-links {
+  position: fixed!important;
+  bottom: 0!important;
+  left: 0!important;
+  right: 0!important;
+  margin: 0!important;
+  padding: 0!important;
+  height: 0!important;
+  border-top: 3px solid #bb2222!important;
+  z-index: 9999999999!important;
+}
+
+#footer-links-primary,
+#footer-links-secondary{
+  display: none!important;
+}
+
+body #footer-container {
+  margin-top: auto!important;
+}
+
+#footer-main {
+  text-align: center!important;
+  padding: 15px 0!important;
+  border: 0!important;
+}

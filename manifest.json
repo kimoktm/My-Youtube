@@ -16,10 +16,20 @@
     ],
     "content_scripts": [{
         "matches": [
-            "*://*.youtube.com/*"
+            "*://*.youtube.com/*",
+            "*://*.plus.googleapis.com/*",
+            "*://*.apis.google.com/.*/widget/render/comments?.*&first_party_property=YOUTUBE.*",
+            "*://*.plus.google.com/.*/widget/render/comments?.*",
+            "*://*.plus.google.com/.*/notifications/frame?.*"
         ],
         "css": [
-            "MyStyle.css"
+            "main.css",
+            "comments.css",
+            "fonts.css",
+            "extras.css"
+        ],
+        "js": [
+            "main.js"
         ],
         "run_at": "document_end"
     }]
