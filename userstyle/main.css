@@ -409,3 +409,38 @@ button.yt-uix-button-epic-nav-item.yt-uix-button-toggled,
 .html5-progress-bar .ytp-progress-list {
   opacity: 0.85;
 }
+
+.autohide-controls:not(.ytp-block-autohide):not(.ad-interrupting) .html5-video-controls,
+.ideal-aspect.autohide-controls-aspect:not(.ytp-block-autohide):not(.ad-interrupting) .html5-video-controls,
+html[data-player-size=fullscreen] .autohide-controls-fullscreen:not(.ytp-block-autohide):not(.ad-interrupting) .html5-video-controls {
+  -webkit-transition: bottom .4s cubic-bezier(0.4,0,0.2,1);
+  transition: bottom .4s cubic-bezier(0.4,0,0.2,1);
+  opacity: 1;
+  bottom: -45px;
+}
+    
+.disabled-control-seek .ytp-progress-list,
+.autominimize-progress-bar:not(.ytp-block-autohide) .ytp-progress-list,
+html:not([data-player-size=fullscreen]) .autominimize-progress-bar-non-aspect:not(.ytp-block-autohide) .ytp-progress-list {
+  -moz-transform: scaley(0.575);
+  -ms-transform: scaley(0.575);
+  -webkit-transform: scaley(0.575);
+  transform: scaley(0.575);
+  -moz-transition: -moz-transform .4s ease-in,background .15s;
+  -webkit-transition: -webkit-transform .4s ease-in,background .15s;
+  -ms-transition: -ms-transform .4s ease-in,background .15s;
+  transition: transform .4s ease-in,background .15s;
+}
+
+.disabled-control-seek .html5-scrubber-button,
+.autominimize-progress-bar:not(.ytp-block-autohide) .html5-scrubber-button,
+html:not([data-player-size=fullscreen]) .autominimize-progress-bar-non-aspect:not(.ytp-block-autohide) .html5-scrubber-button {
+  -moz-transform: translateY(2.5px) scale(0,0);
+  -ms-transform: translateY(2.5px) scale(0,0);
+  -webkit-transform: translateY(2.5px) scale(0,0);
+  transform: translateY(2.5px) scale(0,0);
+  -moz-transition: -moz-transform .4s ease-in;
+  -webkit-transition: -webkit-transform .4s ease-in;
+  -ms-transition: -ms-transform .4s ease-in;
+  transition: transform .4s ease-in;
+}
