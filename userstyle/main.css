@@ -153,6 +153,7 @@ body #footer-container,
 .guide-pinned .guide-pinning-enabled #masthead-appbar {
   border-top: 1px solid #edf1f5;
   border-bottom: 1px solid #f0f4f9;
+  display: inherit!important;
 }
 
 #masthead-positioner-height-offset {
@@ -160,7 +161,7 @@ body #footer-container,
 }
 
 .gssb_c {
-  margin-top: 4px;
+  margin-top: 3px;
 }
 
 .gssb_e {
@@ -177,6 +178,19 @@ body #footer-container,
 /*-----------------------------------------------------------------------------------*/
 /* SIDEBAR
 /*-----------------------------------------------------------------------------------*/
+
+#page, #appbar-content {
+  -webkit-transition: padding .285s ease-in-out;
+  transition: padding .285s ease-in-out;
+}
+
+#appbar-guide-menu {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: left .29s ease-in-out;
+  transition: left .29s ease-in-out;
+  transform: translateZ(0);
+}
 
 .appbar-guide-menu-layout {
   margin-top: 70px;
@@ -206,6 +220,10 @@ body #footer-container,
   font-size: 13px;
   border-radius: 4px;
   outline: 0;
+}
+
+.guide-item .guide-count {
+  color: #6b757d;
 }
 
 .guide-flyout-trigger.on-hover,
@@ -383,15 +401,15 @@ button.yt-uix-button-epic-nav-item.yt-uix-button-toggled,
 }
 
 .ytp-menu-container {
-  bottom: 43px!important;
+  bottom: 37px!important;
 }
 
 .html5-video-player {
-  background: #1c2022;
+  background: #000;
 }
 
 .html5-player-chrome {
-  padding: 8px 0;
+  padding: 5px 0;
   height: auto!important;
   background: rgba(28, 32, 34, 0.75)!important;
 }
@@ -407,7 +425,7 @@ button.yt-uix-button-epic-nav-item.yt-uix-button-toggled,
 }
 
 .html5-progress-bar .ytp-progress-list {
-  opacity: 0.85;
+  opacity: 0.8;
 }
 
 .autohide-controls:not(.ytp-block-autohide):not(.ad-interrupting) .html5-video-controls,
@@ -416,25 +434,23 @@ html[data-player-size=fullscreen] .autohide-controls-fullscreen:not(.ytp-block-a
   -webkit-transition: bottom .4s cubic-bezier(0.4,0,0.2,1);
   transition: bottom .4s cubic-bezier(0.4,0,0.2,1);
   opacity: 1;
-  bottom: -45px;
+  bottom: -40px;
 }
     
-.disabled-control-seek .ytp-progress-list,
-.autominimize-progress-bar:not(.ytp-block-autohide) .ytp-progress-list,
-html:not([data-player-size=fullscreen]) .autominimize-progress-bar-non-aspect:not(.ytp-block-autohide) .ytp-progress-list {
-  -moz-transform: scaley(0.575);
-  -ms-transform: scaley(0.575);
-  -webkit-transform: scaley(0.575);
-  transform: scaley(0.575);
+.disabled-control-seek .ytp-progress-list, .autominimize-progress-bar:not(.ytp-block-autohide) .ytp-progress-list,
+html .autominimize-progress-bar-non-aspect:not(.ytp-block-autohide) .ytp-progress-list {
+  -moz-transform: scaley(0.7);
+  -ms-transform: scaley(0.7);
+  -webkit-transform: scaley(0.7);
+  transform: scaley(0.765);
   -moz-transition: -moz-transform .4s ease-in,background .15s;
   -webkit-transition: -webkit-transform .4s ease-in,background .15s;
   -ms-transition: -ms-transform .4s ease-in,background .15s;
   transition: transform .4s ease-in,background .15s;
 }
 
-.disabled-control-seek .html5-scrubber-button,
-.autominimize-progress-bar:not(.ytp-block-autohide) .html5-scrubber-button,
-html:not([data-player-size=fullscreen]) .autominimize-progress-bar-non-aspect:not(.ytp-block-autohide) .html5-scrubber-button {
+.disabled-control-seek .html5-scrubber-button, .autominimize-progress-bar:not(.ytp-block-autohide) .html5-scrubber-button,
+html .autominimize-progress-bar-non-aspect:not(.ytp-block-autohide) .html5-scrubber-button {
   -moz-transform: translateY(2.5px) scale(0,0);
   -ms-transform: translateY(2.5px) scale(0,0);
   -webkit-transform: translateY(2.5px) scale(0,0);
