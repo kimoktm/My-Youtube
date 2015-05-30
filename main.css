@@ -39,6 +39,10 @@ body #footer-container,
 }
 
 
+.sb-card-arrow, .sb-card-body-arrow {
+  right: 97px!important;
+}
+
 
 /*-----------------------------------------------------------------------------------*/
 /* NAVBAR
@@ -83,6 +87,7 @@ body #footer-container,
 }
 
 #masthead-search-term::-webkit-input-placeholder {
+  color: rgb(136, 162, 181);
 }
 
 #yt-masthead #search-btn {
@@ -98,14 +103,14 @@ body #footer-container,
   margin: 0!important;
 }
 
-#appbar-onebar-upload-group {
+#yt-masthead-user {
   float: right!important;
   margin: 0!important;
   margin-left: 20px!important;
   height: 70px!important;
 }
 
-#appbar-onebar-upload-group #upload-btn {
+#yt-masthead-user #upload-btn {
   border: 0!important;
   border-radius: 0!important;
   background: #ec2828!important;
@@ -114,16 +119,20 @@ body #footer-container,
   padding: 0 25px!important;
   font-weight: bold!important;
   font-size: 15px!important;
+  float: right!important;
+  margin-right: 0!important;
+  margin-left: 15px!important;
 }
 
-#yt-masthead-user #sb-button-notify {
+#sb-button-notify {
   float: right!important;
   margin: 0!important;
   margin-left: 20px!important;
+  background: transparent!important;
 }
 
 #yt-masthead-user .yt-uix-button-icon-bell {
-  top: 20px!important;
+  top: 8px!important;
 }
 
 #yt-masthead-account-picker {
@@ -295,7 +304,7 @@ li.guide-section h3 a {
 
 .flex-width-enabled.flex-width-enabled-snap .content-alignment,
 .content-snap-width-1 .flex-width-enabled.flex-width-enabled-snap .content-alignment {
-  width: 850px!important;
+ /* width: 850px!important; */
 }
 
 #appbar-nav .yt-uix-button.yt-uix-button-epic-nav-item {
@@ -329,6 +338,7 @@ button.yt-uix-button-epic-nav-item.yt-uix-button-toggled,
 
 .multirow-shelf .shelf-content .yt-shelf-grid-item {
   margin-bottom: 28px!important;
+  margin-right: 9px!important;
 }
 
 .yt-lockup {
@@ -349,6 +359,10 @@ button.yt-uix-button-epic-nav-item.yt-uix-button-toggled,
 /*-----------------------------------------------------------------------------------*/
 /* VIDEO PAGE
 /*-----------------------------------------------------------------------------------*/
+
+.not-yt-legacy-css #content, #player {
+  top: 0!important;
+}
 
 #watch-header .yt-thumb-clip img {
   border-radius: 100%!important;
@@ -396,15 +410,16 @@ button.yt-uix-button-epic-nav-item.yt-uix-button-toggled,
 /* VIDEO
 /*-----------------------------------------------------------------------------------*/
 
-.watch-stage-mode .player-height {
+/*.watch-stage-mode .player-height {
   height: 480px!important;
 }
+*/
 
 .ytp-menu-container {
-  bottom: 37px!important;
+  /*bottom: 37px!important;*/
 }
 
-.html5-video-player {
+/*.html5-video-player {
   background: #000!important;
 }
 
@@ -460,3 +475,4 @@ html .autominimize-progress-bar-non-aspect:not(.ytp-block-autohide) .html5-scrub
   -ms-transition: -ms-transform .4s ease-in!important;
   transition: transform .4s ease-in!important;
 }
+*/
